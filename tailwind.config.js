@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html"],
+  content: ["./public/**/*.html"], // هنا Tailwind هيدور على كل الـ HTML جوه public
   theme: {
     extend: {},
   },
   plugins: [],
-};
+}
